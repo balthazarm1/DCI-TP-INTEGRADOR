@@ -1,0 +1,29 @@
+# --- KiCad 8 / 9 Standard .gitignore ---
+
+# Archivos temporales y de copia de seguridad (Backups)
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl-bak
+*-bak
+
+# Archivos de bloqueo (Lock files - creados cuando el proyecto está abierto)
+*.lck
+
+# Archivos de caché y configuraciones locales específicas del usuario
+.kicad_wks
+# Si deseas compartir la configuración de visualización local del proyecto, comenta la siguiente línea:
+*.kicad_prl
+
+# Resultados de simulación (SPICE, Ngspice)
+*.raw
+*.plt
+
+# Carpetas de fabricación automáticas o temporales (si usas rutas estándar)
+# Nota: Si guardas tus archivos Gerber o BOM en estas carpetas, asegúrate de no ignorarlas 
+# o guardarlas en una carpeta sin este prefijo.
+fp-info-cache
+
+# Archivos de guardado automático (Autosave)
+*_autosave*
